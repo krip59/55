@@ -18,10 +18,10 @@ for(double i = 1; i <res.Length+1; i++)
    {
     minValua=resArray[i];
    } 
-   if(resArray[i]<maxValua)
+   if(resArray[i]>maxValua)
    {
-    
-}
+    maxValua=resArray[i];
+   }
 Console.WriteLine("Разница максимального и минимального в массиве: " {result}");
  {maxValua-minValua});
 }
