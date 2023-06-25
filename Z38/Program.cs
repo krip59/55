@@ -22,6 +22,7 @@ for(double i = 1; i <res.Length+1; i++)
    {
     maxValua=resArray[i];
    }
-Console.WriteLine("Разница максимального и минимального в массиве: " {result}");
- {maxValua-minValua});
+Console.WriteLine("Разница максимального и минимального в массиве: {maxValua-minValua}");
+
+}
 }
