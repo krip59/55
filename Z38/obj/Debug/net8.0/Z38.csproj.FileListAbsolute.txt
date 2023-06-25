@@ -3,3 +3,4 @@ C:\Users\Владелец\Desktop\S5\Z38\obj\Debug\net8.0\Z38.GeneratedMSBuildEd
 C:\Users\Владелец\Desktop\S5\Z38\obj\Debug\net8.0\Z38.AssemblyInfoInputs.cache
 C:\Users\Владелец\Desktop\S5\Z38\obj\Debug\net8.0\Z38.AssemblyInfo.cs
 C:\Users\Владелец\Desktop\S5\Z38\obj\Debug\net8.0\Z38.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\Desktop\S5\Z38\obj\Debug\net8.0\Z38.sourcelink.json

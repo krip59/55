@@ -12,7 +12,6 @@ Double[] GetArrayFromString(string stringArray)
 double [] res = new double[nums.Length];
 double minValua = nums.Length[0];
 double maxValua = nums.Length[0];
-double result;
 for(double i = 1; i <res.Length+1; i++)
 {
     if (resArray[i]<minValua)
@@ -21,9 +20,8 @@ for(double i = 1; i <res.Length+1; i++)
    } 
    if(resArray[i]<maxValua)
    {
-    result = maxValua=resArray[i];
-   }
+    
 }
-Console.WriteLine("Разница максимального и минимального в массиве: {result}");
- {result}");
+Console.WriteLine("Разница максимального и минимального в массиве: " {result}");
+ {maxValua-minValua});
 }
