@@ -10,9 +10,11 @@ Console.WriteLine(String.Join(" ", ResultArray(baseArray)));
 Double[] GetArrayFromString(string stringArray)
 {string[] nums = stringArray.Split(" ",StringSplitOptions.RemoveEmptyEntries);
 double [] res = new double[nums.Length];
-double minValua = nums.Length[0];
-double maxValua = nums.Length[0];
-for(double i = 1; i <res.Length+1; i++)
+//double minValua = nums.Length[0]
+//double maxValua = nums.Length[0];
+res.Min();
+res.Max();
+/*for(double i = 1; i <res.Length+1; i++)
 {
     if (resArray[i]<minValua)
    {
@@ -21,8 +23,7 @@ for(double i = 1; i <res.Length+1; i++)
    if(resArray[i]>maxValua)
    {
     maxValua=resArray[i];
-   }
-Console.WriteLine("Разница максимального и минимального в массиве: {maxValua-minValua}");
-
-}
+   }*/
+//Console.WriteLine("Разница максимального и минимального в массиве: {maxValua-minValua}");
+Console.WriteLine("Разница максимального и минимального в массиве: {Max-Min}");
 }
