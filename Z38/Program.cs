@@ -5,7 +5,7 @@
 Console.Clear();
 Console.Write ("Введите элементы массива через пробел");
 string elements = Console.Readline()!;
-int baseArray = GetArrayFromString(elements);
+double baseArray = GetArrayFromString(elements);
 Console.WriteLine(String.Join(" ", ResultArray(baseArray)));
 Double[] GetArrayFromString(string stringArray)
 {string[] nums = stringArray.Split(" ",StringSplitOptions.RemoveEmptyEntries);
