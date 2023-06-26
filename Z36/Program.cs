@@ -15,15 +15,5 @@ result[i] = new Random().Next(minValue,maxValue+1);
 } 
 return result;
 }
-int arr = GetRanomArray(4,0,100);
-int sum = 0;
-Index = i;
-for (arr=0; i<arr.length;i++)
-{
-    if (i%2!=0)
-    {
-        sum =sum +1;
-    }
-}
-Console.Write($"{sum}");
-
+int arrArray = GetRanomArray(4,0,100);
+Console.WriteLine(arrArray.Where(i%2==0).Sum());
