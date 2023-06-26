@@ -16,4 +16,5 @@ result[i] = new Random().Next(minValue,maxValue+1);
 return result;
 }
 int arrArray = GetRanomArray(4,0,100);
-Console.WriteLine(arrArray.Where(i%2==0).Sum());
+Console.WriteLine(arrArray.Where(i=>i%2==0).Sum());
+ 
